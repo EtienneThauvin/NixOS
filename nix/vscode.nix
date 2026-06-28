@@ -22,6 +22,7 @@
         "nix.serverPath" = "nil";
         "nix.serverSettings.nil.formatting.command" = [ "nixpkgs-fmt" ];
         "claudeCode.claudePath" = "/run/current-system/sw/bin/claude";
+        "git.path" = "/run/current-system/sw/bin/git";
         "terminal.integrated.defaultLocation" = "editor";
       };
     };
