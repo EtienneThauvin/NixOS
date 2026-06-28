@@ -21,6 +21,8 @@
         "nix.enableLanguageServer" = true;
         "nix.serverPath" = "nil";
         "nix.serverSettings.nil.formatting.command" = [ "nixpkgs-fmt" ];
+        "claudeCode.claudePath" = "/run/current-system/sw/bin/claude";
+        "terminal.integrated.defaultLocation" = "editor";
       };
     };
   };
@@ -28,6 +30,5 @@
     nil
     statix
     nixpkgs-fmt
-    claude-code
   ];
 }

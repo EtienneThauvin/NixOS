@@ -50,4 +50,8 @@
     xrandr --output DP-2 --primary --mode 2560x1440 --rate 180 \
           --output HDMI-A-3 --off
   '';
+
+  environment.sessionVariables = {
+    PATH = "/etc/profiles/per-user/etienne/bin:$PATH";
+  };
 }

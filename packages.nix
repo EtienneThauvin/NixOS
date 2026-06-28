@@ -12,6 +12,7 @@
     audacity
     freecad
     vscode
+    claude-code
 
     # Dev
     python3
@@ -34,8 +35,8 @@
   # STEAM
   # ============================================================================
   programs.steam = {
-    enable                       = true;
-    remotePlay.openFirewall      = true;
+    enable = true;
+    remotePlay.openFirewall = true;
     dedicatedServer.openFirewall = false;
   };
 
